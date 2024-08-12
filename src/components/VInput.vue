@@ -14,6 +14,7 @@ function onInput(event: Event): void {
 </script>
 <template>
   <input
+    autocomplete="on"
     :value="modelValue"
     @input="onInput"
     class="mb-4 rounded border py-1 px-3 text-slate-900 outline-none transition focus:ring"
